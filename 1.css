@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  margin: 0 auto;
+  font-size: 13px;
+  width: 362px;
+  background-color: #011957;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+li {
+  list-style: none;
+}
+/* 头部 */
+header img {
+  width: 362px;
+}
+a {
+  text-decoration: none;
+}
+/* nav */
+nav {
+  background-color: #011957;
+  padding: 7px;
+  box-sizing: border-box;
+}
+nav ul li {
+  text-indent: 5px;
+  position: relative;
+  float: left;
+  width: 82px;
+  margin: 5px 5px 10px 0px;
+  background-color: #6745B5;
+  border-radius: 7px;
+}
+nav ul li a {
+  position: relative;
+  color: white;
+}
+nav ul li span {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  color: white;
+}
+/* 主体 */
+main dl {
+  position: relative;
+  border-radius: 5px;
+  margin: 7px;
+  float: left;
+  width: 162px;
+  background-color: white;
+}
+main dl dt a img {
+  width: 162px;
+  border-radius: 5px;
+}
+main dl dd {
+  margin-left: 7px;
+  margin-bottom: 5px;
+}
+main dl button {
+  width: 38px;
+  height: 36px;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+.b {
+  color: red;
+  font-weight: 700;
+  font-size: 15px;
+}
+.c {
+  text-decoration: line-through;
+}
